@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/ferrari-enthusiasts/static/css/main.f855e6bc.css",
-    "main.js": "/ferrari-enthusiasts/static/js/main.1e41be04.js",
-    "static/js/453.5bab9a69.chunk.js": "/ferrari-enthusiasts/static/js/453.5bab9a69.chunk.js",
-    "static/media/logo.svg": "/ferrari-enthusiasts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/ferrari-enthusiasts/static/css/main.07328e63.css",
+    "main.js": "/ferrari-enthusiasts/static/js/main.33f5a45a.js",
+    "static/media/Ferrari-BG.png": "/ferrari-enthusiasts/static/media/Ferrari-BG.61b2202776736701672f.png",
     "index.html": "/ferrari-enthusiasts/index.html",
-    "main.f855e6bc.css.map": "/ferrari-enthusiasts/static/css/main.f855e6bc.css.map",
-    "main.1e41be04.js.map": "/ferrari-enthusiasts/static/js/main.1e41be04.js.map",
-    "453.5bab9a69.chunk.js.map": "/ferrari-enthusiasts/static/js/453.5bab9a69.chunk.js.map"
+    "main.07328e63.css.map": "/ferrari-enthusiasts/static/css/main.07328e63.css.map",
+    "main.33f5a45a.js.map": "/ferrari-enthusiasts/static/js/main.33f5a45a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1e41be04.js"
+    "static/css/main.07328e63.css",
+    "static/js/main.33f5a45a.js"
   ]
 }
