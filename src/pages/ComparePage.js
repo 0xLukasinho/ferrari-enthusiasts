@@ -1,5 +1,8 @@
+// src/pages/ComparePage.js
+
 import React, { useState, useEffect } from 'react';
 import '../styles.css';
+import CarCard from '../components/CarCard';
 
 function ComparePage() {
   const [carsData, setCarsData] = useState([]);
@@ -38,39 +41,7 @@ function ComparePage() {
               ))}
             </select>
           </div>
-          {selectedCar1 && (
-            <div id="car1Details" className="card">
-              <img id="car1Img" src={`${process.env.PUBLIC_URL}${selectedCar1.image}`} className="card-img-top" alt="Car Image" />
-              <div className="card-body">
-                <h5 id="car1Title" className="card-title">{selectedCar1.name}</h5>
-                <p id="car1Description" className="card-text">{selectedCar1.description}</p>
-                <table className="table">
-                  <tbody>
-                    <tr>
-                      <th>Year</th>
-                      <td id="car1Year">{selectedCar1.year}</td>
-                    </tr>
-                    <tr>
-                      <th>Top Speed</th>
-                      <td id="car1TopSpeed">{selectedCar1.topSpeed} km/h</td>
-                    </tr>
-                    <tr>
-                      <th>Horsepower</th>
-                      <td id="car1Horsepower">{selectedCar1.horsepower} hp</td>
-                    </tr>
-                    <tr>
-                      <th>Acceleration (0-100 km/h)</th>
-                      <td id="car1Acceleration">{selectedCar1.acceleration} seconds</td>
-                    </tr>
-                    <tr>
-                      <th>Engine Displacement (cc)</th>
-                      <td id="car1Cc">{selectedCar1.cc}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
+          <CarCard car={selectedCar1} />
         </div>
         <div className="col-md-6">
           <div className="mb-3">
@@ -82,39 +53,7 @@ function ComparePage() {
               ))}
             </select>
           </div>
-          {selectedCar2 && (
-            <div id="car2Details" className="card">
-              <img id="car2Img" src={`${process.env.PUBLIC_URL}${selectedCar2.image}`} className="card-img-top" alt="Car Image" />
-              <div className="card-body">
-                <h5 id="car2Title" className="card-title">{selectedCar2.name}</h5>
-                <p id="car2Description" className="card-text">{selectedCar2.description}</p>
-                <table className="table">
-                  <tbody>
-                    <tr>
-                      <th>Year</th>
-                      <td id="car2Year">{selectedCar2.year}</td>
-                    </tr>
-                    <tr>
-                      <th>Top Speed</th>
-                      <td id="car2TopSpeed">{selectedCar2.topSpeed} km/h</td>
-                    </tr>
-                    <tr>
-                      <th>Horsepower</th>
-                      <td id="car2Horsepower">{selectedCar2.horsepower} hp</td>
-                    </tr>
-                    <tr>
-                      <th>Acceleration (0-100 km/h)</th>
-                      <td id="car2Acceleration">{selectedCar2.acceleration} seconds</td>
-                    </tr>
-                    <tr>
-                      <th>Engine Displacement (cc)</th>
-                      <td id="car2Cc">{selectedCar2.cc}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
+          <CarCard car={selectedCar2} />
         </div>
       </div>
     </div>
