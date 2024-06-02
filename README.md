@@ -2,15 +2,6 @@
 
 Welcome to Ferrari Enthusiasts, a web application for Ferrari fans to explore various Ferrari models, compare their specifications, and play a fun Super Trump game. The application is built using React and is deployed on GitHub Pages.
 
-## Table of Contents
-
-- [Ferrari Enthusiasts](#ferrari-enthusiasts)
-  - [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
-  - [Features](#features)
-  - [License](#license)
-  - [Acknowledgements](#acknowledgements)
-
 ## Demo
 
 Check out the live demo of the application [here](https://0xlukasinho.github.io/ferrari-enthusiasts/).
