@@ -13,10 +13,6 @@ Check out the live demo of the application [here](https://0xlukasinho.github.io/
 - **Compare**: Select and compare specifications of different Ferrari models.
 - **Super Trump**: A fun card game where you can compare Ferrari models' specifications against the computer.
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Acknowledgements
 
 - [React](https://reactjs.org/)
