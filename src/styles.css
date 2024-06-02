@@ -1,0 +1,80 @@
+body {
+    background-image: url('../public/media/Ferrari-BG.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgb(212, 0, 0);
+}
+
+.header {
+    background-color: rgba(212, 0, 0, 0.85) !important;
+    width: 100%;
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+}
+
+.navbar a:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%, 100%; 
+}
+
+.thumbnails img {
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+}
+
+.super-trump .card {
+    width: 48%;
+    margin: 0 1%;
+}
+
+.super-trump .card img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+#attributeButtons .btn {
+    margin: 0 5px;
+}
+
+.compare-page .card img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
