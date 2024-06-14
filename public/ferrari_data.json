@@ -104,7 +104,7 @@
         "cylinders": 8,
         "acceleration": 6.0,
         "cc": 3185,
-        "image": "/media/328-gtb.jpg",
+        "image": "/media/ferrari-328.avif",
         "description": "The 308 series had won universal acclaim from both customers and critics, and its natural evolution continued with the 328 GTB, a berlinetta fitted with the new 3.2-litre version of the V8. This new engine (again featuring four valves per cylinder) produced a specific output of 85 bhp per litre, compared with 82 for the 4-valve version of the 308."
     },
     {
@@ -274,5 +274,137 @@
         "cc": 4023,
         "image": "/media/335s.avif",
         "description": "The direct descendant of the 315 S, the 335 S made its debut at the infamous 1957 Mille Miglia with Alfonso De Portago replacing an unwell Luigi Musso at the wheel at the last minute. The car was lying third when tragedy struck near Guidizzolo, killing De Portago, his co-driver Edmond Nelson and 14 spectators. The ensuing barrage of protests brought the era of high-speed road racing to an end in Italy. The 335 S also took part in the Le Mans 24 hour, turning in the fastest lap at an average of over 120 mph. In addition to this, it took the first two places at the Venezuelan 1000 km, thus contributing to Ferrari’s victory in the Manufacturers’ World Championship."
-    }
+    },
+    {
+        "id": "ferrari_812_gts",
+        "name": "Ferrari 812 GTS",
+        "year": 2020,
+        "topSpeed": 340,
+        "horsepower": 789,
+        "cylinders": 12,
+        "acceleration": 2.9,
+        "cc": 6496,
+        "image": "/media/Ferrari-812-GTS.avif",
+        "description": "The Ferrari 812 GTS hails a triumphant return for the front-engined V12 convertible. It combines extreme power and superb comfort with a retractable hardtop, a remarkable achievement of design and engineering."
+      },
+      {
+        "id": "ferrari_458_spider",
+        "name": "Ferrari 458 Spider",
+        "year": 2011,
+        "topSpeed": 320,
+        "horsepower": 570,
+        "cylinders": 8,
+        "acceleration": 3.4,
+        "cc": 4497,
+        "image": "/media/458-spider.webp",
+        "description": "The Ferrari 458 Spider is the world’s first mid-rear engine sports car with a retractable hard top. The innovative 458 Spider extends the pleasure of the 458 Italia’s handling and performance to a whole new dimension."
+      },
+      {
+        "id": "ferrari_612_scaglietti",
+        "name": "Ferrari 612 Scaglietti",
+        "year": 2004,
+        "topSpeed": 320,
+        "horsepower": 533,
+        "cylinders": 12,
+        "acceleration": 4.2,
+        "cc": 5748,
+        "image": "/media/ferrari-612.jpg",
+        "description": "The Ferrari 612 Scaglietti is a 2+2 coupé that offers a unique combination of dynamic performance, elegance, and comfort. Named after the famous coachbuilder Sergio Scaglietti, the 612 is a tribute to Ferrari’s coachbuilding heritage."
+      },
+      {
+        "id": "ferrari_456_gta",
+        "name": "Ferrari 456 GTA",
+        "year": 1996,
+        "topSpeed": 309,
+        "horsepower": 442,
+        "cylinders": 12,
+        "acceleration": 5.1,
+        "cc": 5474,
+        "image": "/media/456-gta.avif",
+        "description": "The Ferrari 456 GTA is an automatic version of the 456 GT, combining the performance of a V12 engine with the convenience of an automatic transmission. It’s a grand tourer that embodies Ferrari’s commitment to innovation and luxury."
+      },
+      {
+        "id": "ferrari_208_gts",
+        "name": "Ferrari 208 GTS",
+        "year": 1980,
+        "topSpeed": 215,
+        "horsepower": 155,
+        "cylinders": 8,
+        "acceleration": 8.4,
+        "cc": 1991,
+        "image": "/media/208-gts.jpg",
+        "description": "The Ferrari 208 GTS is a rare model, known for being the smallest V8 Ferrari ever produced. It was designed to meet Italian tax regulations and offers a unique combination of agility and style."
+      },
+      {
+        "id": "ferrari_512_bb",
+        "name": "Ferrari 512 BB",
+        "year": 1976,
+        "topSpeed": 302,
+        "horsepower": 360,
+        "cylinders": 12,
+        "acceleration": 5.4,
+        "cc": 4943,
+        "image": "/media/ferrari-512-bbi.jpg",
+        "description": "The Ferrari 512 BB is a mid-engined sports car that continued Ferrari’s tradition of high-performance berlinettas. The 512 BB features a flat-12 engine and is renowned for its impressive performance and distinctive design."
+      },
+      {
+        "id": "ferrari_dino_246_gts",
+        "name": "Ferrari Dino 246 GTS",
+        "year": 1972,
+        "topSpeed": 235,
+        "horsepower": 195,
+        "cylinders": 6,
+        "acceleration": 7.1,
+        "cc": 2418,
+        "image": "/media/dino-246-gts.jpg",
+        "description": "The Ferrari Dino 246 GTS is an iconic model named after Enzo Ferrari’s son, Alfredo ‘Dino’ Ferrari. It is celebrated for its beautiful design and balanced handling, making it a favorite among collectors."
+      },
+      {
+        "id": "ferrari_512_s",
+        "name": "Ferrari 512 S",
+        "year": 1970,
+        "topSpeed": 340,
+        "horsepower": 550,
+        "cylinders": 12,
+        "acceleration": 3.1,
+        "cc": 4993,
+        "image": "/media/512s.jpg",
+        "description": "The Ferrari 512 S is a racing sports car that competed in the World Sportscar Championship. Known for its power and agility, the 512 S represents Ferrari’s dedication to racing excellence and innovation."
+      },
+      {
+        "id": "ferrari_275_gtb",
+        "name": "Ferrari 275 GTB",
+        "year": 1964,
+        "topSpeed": 265,
+        "horsepower": 280,
+        "cylinders": 12,
+        "acceleration": 5.5,
+        "cc": 3286,
+        "image": "/media/275-gtb.jpg",
+        "description": "The Ferrari 275 GTB is a beautifully designed grand tourer that exemplifies Ferrari's combination of luxury and performance. Known for its sleek lines and powerful V12 engine, the 275 GTB is a true classic in the Ferrari lineage."
+      },
+      {
+        "id": "ferrari_250_gto",
+        "name": "Ferrari 250 GTO",
+        "year": 1962,
+        "topSpeed": 280,
+        "horsepower": 300,
+        "cylinders": 12,
+        "acceleration": 5.4,
+        "cc": 2953,
+        "image": "/media/250-GTO.png",
+        "description": "The Ferrari 250 GTO is one of the most iconic and valuable classic cars in the world. With its stunning design and exceptional performance, it achieved numerous victories in GT racing and remains a symbol of Ferrari's rich racing heritage."
+      },
+      {
+        "id": "ferrari_250_testa_rossa",
+        "name": "Ferrari 250 Testa Rossa",
+        "year": 1957,
+        "topSpeed": 270,
+        "horsepower": 300,
+        "cylinders": 12,
+        "acceleration": 6.0,
+        "cc": 2953,
+        "image": "/media/250-testarossa.webp",
+        "description": "The Ferrari 250 Testa Rossa is a legendary race car known for its distinctive red cylinder heads (‘Testa Rossa’). It achieved numerous victories in the World Sportscar Championship and remains a symbol of Ferrari’s racing heritage."
+      }
 ]

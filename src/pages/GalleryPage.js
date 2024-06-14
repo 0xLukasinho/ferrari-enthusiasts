@@ -9,9 +9,8 @@ function GalleryPage() {
     fetch(`${process.env.PUBLIC_URL}/ferrari_data.json`)
       .then(response => response.json())
       .then(data => {
-        console.log('Fetched data:', data); // Debug log
         setCarsData(data);
-        setSelectedCarIndex(0); // Display details of the first car by default
+        setSelectedCarIndex(0);
       });
   }, []);
 
@@ -21,14 +20,12 @@ function GalleryPage() {
       carouselElement.addEventListener('slid.bs.carousel', (event) => {
         const activeElement = document.querySelector('#carouselExampleCaptions .carousel-inner .active');
         const activeIndex = Array.from(activeElement.parentNode.children).indexOf(activeElement);
-        console.log('Active carousel index:', activeIndex); // Debug log
         setSelectedCarIndex(activeIndex);
       });
     }
   }, [carsData]);
 
   const handleThumbnailClick = (index) => {
-    console.log('Thumbnail clicked index:', index); // Debug log
     setSelectedCarIndex(index);
     const carousel = new window.bootstrap.Carousel(document.getElementById('carouselExampleCaptions'));
     carousel.to(index);
@@ -41,7 +38,6 @@ function GalleryPage() {
         <div className="carousel-inner" id="carousel-inner">
           {carsData.map((car, index) => {
             const imagePath = `${process.env.PUBLIC_URL}${car.image}`;
-            console.log('Image path:', imagePath); // Debug log
             return (
               <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
                 <img src={imagePath} className="d-block w-100" alt={car.name} />

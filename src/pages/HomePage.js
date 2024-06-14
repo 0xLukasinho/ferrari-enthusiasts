@@ -13,7 +13,7 @@ function HomePage() {
 
       <section>
         <div className="row align-items-center justify-content-center">
-          <div className="col-9 col-md-4">
+          <div className="col-9 col-md-4 gallery-card-container">
             <div className="card border-0 shadow my-3">
               <img src={`${process.env.PUBLIC_URL}/media/ferrari-enzo.jpg`} alt="Ferrari Enzo" className="card-img-top" />
               <div className="card-body">
@@ -25,7 +25,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="col-9 col-md-4">
+          <div className="col-9 col-md-4 gallery-card-container">
             <div className="card border-0 shadow my-3">
               <img src={`${process.env.PUBLIC_URL}/media/Ferrari-F50.webp`} alt="Ferrari F50" className="card-img-top" />
               <div className="card-body">
@@ -37,8 +37,8 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="col-9 col-md-4">
-            <div className="card border-0 shadow my-3">
+          <div className="col-9 col-md-4 gallery-card-container">
+            <div className="card border-0 shadow my-3 ">
               <img src={`${process.env.PUBLIC_URL}/media/laferrari.jpg`} alt="LaFerrari" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">Comparison</h5>
